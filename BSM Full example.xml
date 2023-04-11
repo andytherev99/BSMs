@@ -1,0 +1,247 @@
+<MessageFrame>
+    <messageId>20</messageId>
+    <value>
+        <BasicSafetyMessage>
+			<coreData>		
+				<msgCnt>94</msgCnt>
+				<id>71cdd2c5</id>
+				<secMark>38349</secMark>
+				<lat>-349424381</lat>
+				<long>1385881510</long>
+				<elev>473</elev>
+				<accuracy>		
+					<semiMajor>10</semiMajor>
+					<semiMinor>10</semiMinor>
+					<orientation>0</orientation>
+				</accuracy>
+				<transmission>unavailable</transmission>
+				<speed>0</speed>
+				<heading>0</heading>
+				<angle>127</angle>
+				<accelSet>		
+					<long>0</long>
+					<lat>0</lat>
+					<vert>-127</vert>
+					<yaw>0</yaw>
+				</accelSet>	
+				<brakes>		
+					<wheelBrakes>00000</wheelBrakes>
+					<traction>0</traction>
+					<abs>0</abs>
+					<scs>0</scs>
+					<brakeBoost>0</brakeBoost>
+					<auxBrakes>0</auxBrakes>
+				</brakes>	
+				<size>		
+					<width>184</width>
+					<length>497</length>
+				</size>
+			</coreData>
+			<partII>		
+				<VehicleSafetyExtensions>		
+					<events>0000000000000</events>
+					<pathHistory>		
+						<initialPosition>		
+							<utcTime>		
+								<year>2021</year>
+								<month>12</month>
+								<day>16</day>
+								<hour>12</hour>
+								<minute>0</minute>
+								<second>0</second>
+								<offset>0</offset>
+							</utcTime>
+							<long>1385881510</long>
+							<lat>-349424381</lat>
+							<elevation>473</elevation>
+							<heading>0</heading>
+							<speed>		
+								<transmisson>2</transmisson>
+								<speed>0</speed>
+							</speed>
+							<posAccuracy>		
+								<semiMajor>10</semiMajor>
+								<semiMinor>10</semiMinor>
+								<orientation>0</orientation>
+							</posAccuracy>
+							<timeConfidence>0</timeConfidence>
+							<posConfidence>		
+								<pos>0</pos>
+								<elevation>0</elevation>
+							</posConfidence>
+							<speedConfidence>		
+								<heading>0</heading>
+								<speed>0</speed>
+								<throttle>0</throttle>
+							</speedConfidence>
+						</initialPosition>
+						<currGNSSstatus>1</currGNSSstatus>
+						<crumbData>		
+							<latOffset>-1</latOffset>
+							<lonOffset>0</lonOffset>
+							<elevationOffset>0</elevationOffset>
+							<timeOffset>33</timeOffset>
+							<speed>0</speed>
+							<posAccuracy>		
+								<semiMajor>10</semiMajor>
+								<semiMinor>10</semiMinor>
+								<orientation>0</orientation>
+							</posAccuracy>
+							<heading>0</heading>
+						</crumbData>
+					</pathHistory>
+					<pathPrediction>		
+						<radiusOfCurve>32767</radiusOfCurve>
+						<confidence>200</confidence>
+					</pathPrediction>
+					<lights>000000100</lights>
+				</VehicleSafetyExtensions>
+				<SpecialVehicleExtensions>		
+					<vehicleAlerts>		
+						<sspRights>0</sspRights>
+						<sirenUse>unavailable</sirenUse>
+						<lightsUse>0</lightsUse>
+						<multi>0</multi>
+						<events>		
+							<sspRights>0</sspRights>
+							<event>0</event>
+						</events>
+						<responseType>notInUseOrNotEquipped</responseType>
+					</vehicleAlerts>
+					<description>		
+						<typeEvent>0</typeEvent>
+						<description>0</description>
+						<priority>0</priority>
+						<heading>0</heading>
+						<extent>0</extent>			
+					</description>
+					<trailers>		
+						<sspRights>0</sspRights>
+						<connection>		
+							<pivotOffset>0</pivotOffset>
+							<pivotAngle>0</pivotAngle>
+							<pivots>False</pivots>
+						</connection>
+						<units>		
+							<isDolly>False</isDolly>
+							<width>		</width>
+							<length>		</length>
+							<height>		</height>
+							<mass>		</mass>
+							<bumperHeights>		
+								<front>		</front>
+								<rear>		</rear>
+							</bumperHeights>
+							<centerOfGravity>		</centerOfGravity>
+							<frontPivot>		
+								<pivotOffset>		</pivotOffset>
+								<pivotAngle>		</pivotAngle>
+								<pivots>		</pivots>
+							</frontPivot>
+							<rearPivot>		
+								<pivotOffset>		</pivotOffset>
+								<pivotAngle>		</pivotAngle>
+								<pivots>		</pivots>
+							</rearPivot>
+							<rearWheelOffset>		</rearWheelOffset>
+							<positionOffset>		
+								<x>		</x>
+								<y>		</y>
+							</positionOffset>
+							<elevationOffset>		</elevationOffset>
+							<crumbData>		
+								<pivotAngle>		</pivotAngle>
+								<timeOffset>		</timeOffset>
+								<positionOffset>		
+									<x>		</x>
+									<y>		</y>
+								</positionOffset>
+								<elevationOffset>		</elevationOffset>
+								<heading>		</heading>
+							</crumbData>
+						</units>
+					</trailers>
+				</SpecialVehicleExtensions>
+				<SupplementalVehicleExtensions>		
+					<classification>		</classification>
+					<classDetails>		
+						<keyType>		</keyType>
+						<role>		</role>
+						<iso3883>		</iso3883>
+						<hpmsType>		</hpmsType>
+						<vehicleType>		</vehicleType>
+						<responseEquip>		</responseEquip>
+						<responderType>		</responderType>
+						<fuelType>		</fuelType>
+						<regional>		</regional>
+					</classDetails>
+					<vehicleData>
+						<height>		</height>
+						<bumpers>		
+							<front>		</front>
+							<rear>		</rear>
+						</bumpers>
+						<mass>		</mass>
+						<trailerWeight>		</trailerWeight>
+					</vehicleData>
+					<weatherReport>		
+						<isRaining>		</isRaining>
+						<rainRate>		</rainRate>
+						<precipSituation  OPTIONAL,>		</precipSituation  OPTIONAL,>
+						<solarRadiation>		</solarRadiation>
+						<friction>		</friction>
+						<roadFriction>		</roadFriction>
+					</weatherReport>
+					<weatherProbe>		
+						<airTemp>		</airTemp>
+						<airPressure>		</airPressure>
+						<rainRates>		
+							<statusFront>		</statusFront>
+							<rateFront>		</rateFront>
+							<statusRear>		</statusRear>
+							<rateRear>		</rateRear>
+						</rainRates>
+					</weatherProbe>
+					<obstacle>		
+						<obDist>		</obDist>
+						<obDirect>		</obDirect>
+						<description>		</description>
+						<locationDetails>		</locationDetails>
+						<dateTime>		
+							<year>		</year>
+							<month>		</month>
+							<day>		</day>
+							<hour>		</hour>
+							<minute>		</minute>
+							<second>		</second>
+							<offset>		</offset>
+						</dateTime>
+						<vertEvent>		</vertEvent>
+					</obstacle>
+					<status>		
+						<statusDetails>		</statusDetails>
+						<locationDetails>		</locationDetails>
+					</status>
+					
+					<speedProfile>		
+						<speedReports>		
+							<SpeedProfileMeasurement>		</SpeedProfileMeasurement>
+						</speedReports>
+					</speedProfile>
+					<theRTCM>		
+						<tcmHeader>		</tcmHeader>
+						<status>		</status>
+						<offsetSet>		
+							<antOffsetX>		</antOffsetX>
+							<antOffsetY>		</antOffsetY>
+							<antOffsetZ>		</antOffsetZ>
+						</offsetSet>
+						<msgs>		</msgs>
+					</theRTCM>
+					<>		</>
+					<regional>		</regional>
+				</SupplementalVehicleExtensions>
+			</partII>
+		</BasicSafetyMessage>
+    </value>
+</MessageFrame>
