@@ -1,47 +1,50 @@
+#ifndef BSM_H
+#define BSM_H
+
 #include <string>
 #include <vector>
+using namespace std;
 
-class MessageFrame {
-public:
-    int messageId;
-    std::string transmission;
-    int speed;
-    int heading;
-    int angle;
-    struct Accuracy {
-        int semiMajor;
-        int semiMinor;
-        int orientation;
-    } accuracy;
-    struct Brakes {
-        std::string wheelBrakes;
-        int traction;
-        int abs;
-        int scs;
-        int brakeBoost;
-        int auxBrakes;
-    } brakes;
-    struct Size {
-        int width;
-        int length;
-    } size;
+class BSM {
+private:
     struct CoreData {
         int msgCnt;
-        std::string id;
+        string id;
         int secMark;
         int lat;
         int longitude;
         int elev;
+        struct Accuracy {
+            int semiMajor;
+            int semiMinor;
+            int orientation;
+        } accuracy;
+        string transmission;
+        int speed;
+        int heading;
+        int angle;
         struct AccelSet {
             int longi;
             int lat;
             int vert;
             int yaw;
         } accelSet;
+        struct Brakes {
+            string wheelBrakes;
+            int traction;
+            int abs;
+            int scs;
+            int brakeBoost;
+            int auxBrakes;
+        } brakes;
+        struct Size {
+            int width;
+            int length;
+        } size;
     } coreData;
     struct PartII {
         struct VehicleSafetyExtensions {
-            std::string events;
+            string events;
             struct PathHistory {
                 struct InitialPosition {
                     struct UtcTime {
@@ -96,19 +99,19 @@ public:
                 int radiusOfCurve;
                 int confidence;
             } pathPrediction;
-            std::string lights;
+                string lights;
         } vehicleSafetyExtensions;
         struct SpecialVehicleExtensions {
             struct VehicleAlerts {
                 int sspRights;
-                std::string sirenUse;
+                string sirenUse;
                 int lightsUse;
                 int multi;
                 struct Events {
                     int sspRights;
                     int event;
                 } events;
-                std::string responseType;
+                string responseType;
             } vehicleAlerts;
             struct Description {
                 int typeEvent;
@@ -134,4 +137,10 @@ public:
             } trailers;
         } specialVehicleExtensions;
     } partII;
+
+public:
+    double getLatitude();
+    double getLongitude();
 };
+
+#endif // BSM_H
