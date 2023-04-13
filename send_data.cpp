@@ -5,14 +5,14 @@
 #include <ctime>
 #include <unistd.h>
 #include "BSM/bsm.h"
-#include "iothub_client.h"
-#include "iothub_transport_mqtt.h"
+#include "BSM/iothub_client.h"
+#include "BSM/iothub_transport_mqtt.h"
 
 using namespace std;
 
 // Define la cadena de conexión y el nombre del dispositivo
-static const char* connectionString = "[Your IoT Hub device connection string]";
-static const char* deviceId = "[Your IoT Hub device name]";
+static const char* connectionString = "HostName=BSMhub.azure-devices.net;DeviceId=iot-device-1;SharedAccessKey=EB4c7AEe0pEuSHKSDDm2nY0xgmbjFhF20uBe0mSdKvo=";
+static const char* deviceId = "iot-device-1";
 
 // Función que se llama cuando se recibe una confirmación de envío de IoT Hub
 static void SendConfirmationCallback(IOTHUB_CLIENT_CONFIRMATION_RESULT result, void* userContextCallback)
